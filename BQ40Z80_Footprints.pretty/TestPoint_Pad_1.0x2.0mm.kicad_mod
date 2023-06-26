@@ -1,0 +1,16 @@
+(footprint "TestPoint_Pad_1.0x2.0mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (tags "test point SMD pad rectangle square")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at -0.0508 2.1844) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 57854389-d614-41bc-badd-9e50c042f000)
+  )
+  (fp_text value "TestPoint_Pad_1.0x2.0mm" (at -0.1016 3.8608) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ffbacf47-0bca-42da-9556-58707a172b94)
+  )
+  (fp_rect (start -0.7 -1.2) (end 0.7 1.2)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "F.SilkS") (tstamp 6007633b-e44e-4ef0-b78d-6b716e6afa6c))
+  (pad "1" smd rect (at 0 0) (size 1 2) (layers "F.Cu" "F.Mask") (tstamp c7a53b80-2670-4411-8770-45df62759000))
+)

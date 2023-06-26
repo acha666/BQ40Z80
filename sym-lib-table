@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BQ40Z80_Library")(type "KiCad")(uri "${KIPRJMOD}/BQ40Z80_Library.kicad_sym")(options "")(descr ""))
+)
