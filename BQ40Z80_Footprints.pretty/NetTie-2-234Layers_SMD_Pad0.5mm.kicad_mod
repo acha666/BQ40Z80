@@ -1,0 +1,48 @@
+(footprint "NetTie-2-234Layers_SMD_Pad0.5mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Net tie, 2 pin, 0.5mm square SMD pads")
+  (tags "net tie")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (net_tie_pad_groups "1, 2")
+  (fp_text reference "REF**" (at 0 -1.2) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp eba058f4-175e-4413-b550-93e1748b898d)
+  )
+  (fp_text value "NetTie-2-234Layers_SMD_Pad0.5mm" (at 0 1.2) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 55decc6c-ccba-49a9-9c58-e53b55d22ed2)
+  )
+  (fp_poly
+    (pts
+      (xy -0.5 -0.5)
+      (xy 0.5 -0.5)
+      (xy 0.5 0.5)
+      (xy -0.5 0.5)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "In1.Cu") (tstamp fb32d956-a93d-4cc7-ba63-6c9a9c75b336))
+  (fp_poly
+    (pts
+      (xy -0.5 -0.5)
+      (xy 0.5 -0.5)
+      (xy 0.5 0.5)
+      (xy -0.5 0.5)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "In2.Cu") (tstamp 62327b27-177e-4d79-a435-e41b2d6bba1d))
+  (fp_poly
+    (pts
+      (xy -0.5 -0.5)
+      (xy 0.5 -0.5)
+      (xy 0.5 0.5)
+      (xy -0.5 0.5)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "B.Cu") (tstamp e7c16181-812e-436c-833f-b0c9d3dc5e14))
+  (pad "1" smd roundrect (at -0.5 0) (size 0.5 1) (layers "In1.Cu") (roundrect_rratio 0.4) (tstamp ac0953bf-821f-4a2c-9ca6-387028fb6170))
+  (pad "1" smd roundrect (at -0.5 0) (size 0.5 1) (layers "In2.Cu") (roundrect_rratio 0.4) (tstamp 86f3af7d-0cd7-46dd-a83d-89e6109dffa2))
+  (pad "1" smd roundrect (at -0.5 0) (size 0.5 1) (layers "B.Cu") (roundrect_rratio 0.4) (tstamp 3221db0d-97ee-407d-95f8-323b088a08d8))
+  (pad "2" smd roundrect (at 0.5 0) (size 0.5 1) (layers "In1.Cu") (roundrect_rratio 0.4) (tstamp 79a5ef69-8d47-4782-bdee-d249fd8621ee))
+  (pad "2" smd roundrect (at 0.5 0) (size 0.5 1) (layers "In2.Cu") (roundrect_rratio 0.4) (tstamp a1122b02-42ef-4dac-9ad4-2377bbf00135))
+  (pad "2" smd roundrect (at 0.5 0) (size 0.5 1) (layers "B.Cu") (roundrect_rratio 0.4) (tstamp 3738e118-c474-4564-a886-9306c67c9a5b))
+)

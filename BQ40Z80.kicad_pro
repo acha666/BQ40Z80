@@ -55,7 +55,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|126526400|116088200|7fb3e17b-cb79-44f1-a756-374ed643b208|08d817ca-4972-4127-9feb-8bbe484fb2ae",
+        "clearance|127682000|114822000|5b17a7c6-1d93-41bf-8e55-a9b2d2b5a465|2edc1bfb-470f-4e34-b852-b4ec4ffbed88",
+        "lib_footprint_mismatch|118846600|137954200|36fd1af5-8e5c-41c7-b549-ab9321f2f580|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|165359350|122250199|6b9830b6-32ea-4cd3-904b-136a1b9aaa53|00000000-0000-0000-0000-000000000000",
+        "solder_mask_bridge|157830600|123410600|339d8334-0e09-49dc-a510-610384ac594b|c6578081-7e46-4ebf-a1d7-74e3816d681f"
+      ],
       "meta": {
         "version": 2
       },
@@ -92,7 +98,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -138,13 +144,13 @@
           "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -153,7 +159,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -162,7 +168,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
